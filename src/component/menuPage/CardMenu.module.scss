@@ -1,0 +1,45 @@
+.container {
+
+    margin: 8px 8px;
+    box-shadow: 1px 1px 10px #ddd;
+    border: solid 1px #ddd;
+
+    .containerCard {
+
+        display: flex;
+        flex-direction: row;
+        border-bottom: solid 1px #ddd;
+        width: 30em;
+        height: 10em;
+
+        .imgCard {
+            flex: 1;
+            height: 159px;
+            width: 70px;
+        }
+
+        .contentCard {
+            flex: 2;
+            margin-left: 20px;
+        }
+    }
+
+    .btns {
+        width: 30em;
+
+        display: flex;
+        flex-direction: row-reverse;
+
+        .btn {
+            width: 8.3em;
+            height: 2.5em;
+            opacity: 0.9;
+            border-radius: 0;
+        }
+    }
+}
+
+.container:hover {
+    opacity: 0.9;
+    transform: rotate(0.8deg) scale(1);
+}

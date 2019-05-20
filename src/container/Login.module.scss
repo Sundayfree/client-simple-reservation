@@ -1,0 +1,87 @@
+.containerLogin {
+
+    background-image: url('../images/bak.jpg');
+    background-repeat: repeat;
+    background-size: 536px 439px !important;
+
+    .headerLogin {
+        height: 70px;
+        width: 920px;
+        border-bottom: 1px dotted #fff;
+        margin: 0 auto;
+
+
+        .titleLogin {
+            padding-top: 40px;
+            font-family: fantasy;
+            font-size: 27px;
+            color: #ffffff;
+        }
+    }
+
+    .container {
+        margin-top: 40px;
+        // height: 4px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .rightContainer {
+            width: 330px;
+            height: 400px;
+            color: #fff;
+            border-right: 1px dotted #fff;
+            margin-right: 45px;
+            text-align: left;
+
+            .titleR {
+
+                font-family: fantasy
+            }
+
+            .pTitle {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+            }
+
+            .btnLogin {
+                width: 80px;
+                height: 40px;
+                opacity: 0.9;
+                background-color: red;
+                text-align: center;
+                border-radius: 5px;
+                font-size: 1.3em;
+
+                .link {
+                    text-decoration: none;
+                    color: #fff;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+                }
+            }
+
+        }
+
+
+    }
+
+    .form {
+        color: #fff;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.1em;
+        width: 250px;
+        height: 330px;
+        margin-left: 30px;
+
+        .btnForm {
+            display: flex;
+            justify-content: space-between;
+            opacity: 0.9;
+
+            .righBtn {
+                width: 95px
+            }
+        }
+
+    }
+}
